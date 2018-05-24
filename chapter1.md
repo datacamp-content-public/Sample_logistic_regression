@@ -57,7 +57,15 @@ xp: 100
 key: 0a60ba3c44
 ```
 
-
+## Intuition building through Tumor dataset 
+***
+ - Let's try and gain some intuition
+ - The graph on the next slide depicts if a patient's Tumor is Malignant (Cancerous) or not **{1: Yes; 0: No}** 
+ based on the Tumor Size present in his/her body.
+ - Tumor Size is taken on the *x-axis* whereas the outcome, i.e., whether the patient's Tumor is Malginant or not is taken on the *Y-axis*
+ - The output, "y" has two **categories** i.e. 1 (Yes) or 0 (No) 
+ - Therefore, this is a **Classification Problem** where we are using our dependent variables, in this case Tumor Size, and are getting a **binary** output, 1 (Yes) or 0 (No)! 
+ - Let's approach this problem with what we've learnt so far i.e. Linear Regression.
 
 `@instructions`
 
@@ -69,10 +77,17 @@ key: 0a60ba3c44
 `@sample_code`
 ```{python}
 import numpy as np
+import matplotlib.pyplot as plt
+# import seaborn as sns
 import pandas as pd
 %matplotlib inline
 from sklearn.datasets import make_classification
 X, y = make_classification(n_samples=10, n_features=1, n_informative=1, n_redundant=0 , n_clusters_per_class=1, flip_y=0, random_state=7)
+plt.figure(figsize=(10,6))
+plt.scatter(X, y, c='r', marker='x')
+plt.ylabel("Malignant Tumor {1: Yes  0: No}")
+plt.xlabel("Tumor Size")
+plt.show()
 ```
 
 
