@@ -93,7 +93,20 @@ key: abdbd30c01
 `@hint`
 
 
-
+`@pre_exercise_code`
+```{python}
+from sklearn.linear_model import LinearRegression
+lm = LinearRegression()
+lm.fit(X, y)
+z = np.linspace(-2, 2, 1000)
+z_predict = lm.intercept_ + (lm.coef_ * z)
+plt.figure(figsize=(10,6))
+plt.scatter(X, y, c='r', marker='x')
+plt.plot(z, z_predict)
+plt.ylabel("Presence of Cancer {1: Yes  0: No}")
+plt.xlabel("Tumor Size")
+plt.show()
+```
 
 
 
