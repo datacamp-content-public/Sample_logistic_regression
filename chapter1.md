@@ -18,15 +18,10 @@ key: 524c8b3b5b
 ## Program so far
 ***
  Learnt about
- 
- - Different types of Machine Learning Problems
-
+  - Different types of Machine Learning Problems
  - Fit a linear model to our data to predict House Prices in New York
- 
- - Use "Advanced Linear Regression" techniques where we prevented overfitting by using
- 
-      - **Lasso Regression: which performs the L1 Regularization technique**
-      
+  - Use "Advanced Linear Regression" techniques where we prevented overfitting by using
+       - **Lasso Regression: which performs the L1 Regularization technique**
       - **Ridge Regression: which performs the L2 Regularization technique**
 
 `@instructions`
