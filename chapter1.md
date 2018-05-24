@@ -23,7 +23,11 @@ key: 524c8b3b5b
 `@hint`
 
 
-
+`@pre_exercise_code`
+```{python}
+import numpy as np
+X = np.array([24,45,67,87,43,23,1,2,3,4,6,88])
+```
 
 
 
@@ -92,6 +96,34 @@ key: abdbd30c01
 ```{python}
 print(X)
 ```
+
+
+
+
+
+
+
+---
+## Why linear regression is not a good choice ?
+
+```yaml
+type: NormalExercise
+
+xp: 100
+
+key: 2713486ef7
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+
+
 
 
 
