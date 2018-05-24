@@ -30,11 +30,7 @@ key: 524c8b3b5b
 `@hint`
 
 
-`@pre_exercise_code`
-```{python}
-import numpy as np
-X = np.array([24,45,67,87,43,23,1,2,3,4,6,88])
-```
+
 
 
 
@@ -56,6 +52,10 @@ key: 0a60ba3c44
 
 
 
+`@instructions`
+
+
+`@hint`
 
 
 
