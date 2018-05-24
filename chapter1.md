@@ -5,7 +5,7 @@ description: >-
 
 
 ---
-## Insert exercise title here
+## What is classification?
 
 ```yaml
 type: NormalExercise
