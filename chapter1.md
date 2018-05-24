@@ -85,3 +85,40 @@ plt.show()
 
 
 
+
+
+---
+## Decision Boundary
+
+```yaml
+type: NormalExercise
+
+xp: 100
+
+key: c1fdc0838d
+```
+
+* We have fitted a linear regression model which is represented by the blue line
+* To convert a continuous output into a discrete one we will be using a threshold value for the output.
+* Our output is either 1 or 0, and since we can even get predicted values between 0 and 1 like 0.2, 0.6, etc. (The regression line), we need to come up with a method where our output (0.2, 0.6, etc) is **transformed** to either **0** or **1**, keeping threshold at 0.5
+* So, if our predicted value (y) is **greater than 0.5** then we assign a **"1"** to it 
+* If y is **less than 0.5** then we assign a **"0"** to it
+* Tracing the line of y = 0.5 all the way to it's corresponding x - value (See graph below) we can get to know this "Threshold" value
+* This "Threshold Value" is x = __
+* This means that if x > _ then y > 0.5 (i.e. y = 1) 
+* If x < _ then y < 0.5 (i.e. y = 0)
+* Therefore, this vertical line (x = _ ) which separates the 2 classes (y = 1 & 0) ---> **Decision Boundary**
+
+`@instructions`
+
+
+`@hint`
+
+
+
+
+
+
+
+
+
